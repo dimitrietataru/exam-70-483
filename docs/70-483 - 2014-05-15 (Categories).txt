@@ -1,0 +1,49 @@
+Assembly
+q6 - p110
+
+Debugging
+q23 - p15
+q24 - p15
+q47 - p29
+q82 - p52
+q90 - p60
+q137 - p98
+
+Language
+q41 - p25
+q48 - p30
+q16 - p125
+q19 - p127
+
+Logging
+q57 - p35
+q78 - p48
+
+Networking
+q39 - p24
+q62 - p39
+q92 - p61
+q95 - p63
+q5 - p107
+
+OOP
+q7 - p110
+q11 - p117
+q12 - p118
+q13 - p120
+q15 - p123
+
+Regex
+q93 - p61
+q112 - p78
+
+Security
+q69 - p42
+q73 - p45
+
+Serializer
+q83 - p53
+
+Threading
+q97 - p65
+q26 - p138
