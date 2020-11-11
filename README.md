@@ -771,6 +771,90 @@ catch
 ## :heavy_exclamation_mark:  **SECURITY**
 
 
+> You are developing an application that will process personnel records.  
+> The application must encrypt highly sensitive data.  
+> You need to ensure that the application uses the strongest available encryption.  
+> Which class should you use?
+
+* A. `System.Security.Cryptography.DES`
+* B. `System.Security.Cryptography.Aes`
+* C. `System.Security.Cryptography.TripleDES`
+* D. `System.Security.Cryptography.RC2`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B
+</details>
+
+---
+
+> You plan to store passwords in a Windows Azure SQL Database database.  
+> You need to ensure that the passwords are stored in the database by using a hash algorithm.  
+> Which cryptographic algorithm should you use?
+
+* A. `ECDSA`
+* B. `RSA-768`
+* C. `AES-256`
+* D. `SHA-256`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D
+</details>
+
+---
+
+> You are developing an application that will transmit large amounts of data between a client computer and a server.  
+> You need to ensure the validity of the data by using a cryptographic hashing algorithm.  
+> Which algorithm should you use?
+
+* A. `ECDSA`
+* B. `RNGCryptoServiceProvider`
+* C. `Rfc2898DeriveBytes`
+* D. `HMACSHA512`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D
+</details>
+
+---
+
+> You have an application that will send confidential information to a Web server.  
+> You need to ensure that the data is encrypted when it is sent across the network.  
+> Which class should you use?
+
+* A. `CryptoStream`
+* B. `AuthenticatedStream`
+* C. `PipeStream`
+* D. `NegotiateStream`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  A
+</details>
+
+---
+
+> An application uses X509 certificates for data encryption and decryption.  
+> The application stores certificates in the Personal certificates collection of the Current User store.  
+> On each computer, each certificate subject is unique.  
+> The application includes a method named `LoadCertificate`.  
+> The *LoadCertificate()* method must load only certificates for which the subject exactly matches the searchValue parameter value.  
+> You need to ensure that the *LoadCertificate()* method loads the correct certificates.  
+> Which code segment should you insert at *line 06*?
+
+* A. `X509FindType.FindBySubjectName`
+* B. `X509FindType.FindBySubjectKeyIdentifier`
+* C. `X509FindType.FindByIssuerName`
+* D. `X509FindType.FindBySubjectDistinguishedName`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D
+</details>
+
+
 ## :heavy_exclamation_mark:  **SERIALIZERS**
 
 
