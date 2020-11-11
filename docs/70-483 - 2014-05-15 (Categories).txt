@@ -1,13 +1,10 @@
 Assembly
-q6 - p110
+q6.p110
 
 Debugging
-q23 - p15
-q24 - p15
-q47 - p29
-q82 - p52
-q90 - p60
-q137 - p98
+q24.p15
+q47.p29
+q82.p52
 
 Language
 q41 - p25

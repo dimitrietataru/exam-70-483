@@ -236,6 +236,147 @@
   A
 </details>
 
+---
+
+> You are creating an assembly named `Assembly1` by using the Class Library project template in Microsoft Visual Studio. Assembly1 is used by a C# application named App1.  
+> You do not have access to the Visual Studio project for App1.  
+> You need to ensure that you can debug Assembly1.  
+> What should you configure in the project properties?
+
+* A. On the Application page, set the *Output type to Windows Application*
+* B. On the Build page, click *Allow unsafe code*
+* C. On the Debug page, set the *Start external program* option for App1
+* D. On the Debug page, click *Enable native code debugging*
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
+</details>
+
+---
+
+> You plan to debug an application remotely by using Microsoft Visual Studio 2013.  
+> You set a breakpoint in the code.  
+> When you compile the application, you get the following error message: `The breakpoint will not currently be hit. No symbols have been loaded for this document.`  
+> You need to ensure that you can debug the application remotely.  
+> What should you do?
+
+* A. Modify the `AssemblyInfo.cs` file
+* B. `Copy .exe files` to the Symbols folder on the local computer
+* C. `Copy .cs files` to the remote server
+* D. Use `.NET Remote Symbol Loading`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  A
+</details>
+
+---
+
+> You have a C# application named App1 that invokes a method in an external assembly named Assembly1.  
+> Assembly1 is written in C++ and is natively compile by using a debug build.  
+> When you debug App1, you do not see any debug information for Assembly1.  
+> You need to ensure that when you debug App1, you see the debug information for Assebly1.  
+> What should you do?
+
+* A. On the Debugging page of the configuration properties for the C++ project, set the `Debugger Type to Native Only`
+* B. On the Debugging page of the configuration properties for the C++ project, set the `Debugger Type to Mixed`
+* C. On the Debug page of the project properties for App1, click `Enable native code debugging`
+* D. In the project properties for App1, set the `working directory` to the same directory as Assembly1
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B
+</details>
+
+---
+
+> You are developing a C# application named Application1 by using Microsoft Visual Studio 2017.  
+> You plan to compare the memory usage between different builds of Application1.  
+> You need to record the memory usage of each build.  
+> What should you use from Visual Studio?
+
+* A. `IntelliTrace`
+* B. `Memory Usage` from Performance Profiler
+* C. `Performance Wizard` from Performance Profiler
+* D. `Code Analysis`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B
+</details>
+
+---
+
+> You are debugging a 64-bit C# application.  
+> Users report `System.OutOfMemoryException` exceptions. The system is attempting to use arrays larger than 2 GB in size.  
+> You need to ensure that the application can use arrays larger than 2 GB.  
+> What should you do?
+
+* A. Add the `/3GB switch` to the boot.ini file for the operating system
+* B. Set the `IMAGE_FILE_LARGE_ADDRESS_AWARE flag` in the image header for the application executable file
+* C. Set the value of the `gcAllowVeryLargeObjects` property to `true` in the application configuration file
+* D. Set the value of the `user-mode virtual address space` setting for the operating system to `MAX`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
+</details>
+
+---
+
+> You have a C# application.  
+> The application requires 500 MB of available memory.  
+> You need to identify whether there is enough available memory when the application starts.  
+> Which class should you use?
+
+* A. `OutOfmemoryException`
+* B. `MemoryStream`
+* C. `PerformanceCounter`
+* D. `DiagnosticsConfigurationHandler`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
+</details>
+
+---
+
+> You are developing an application by using C#. You have the following requirements:  
+> * Support 32-bit and 64-bit system configurations
+> * Include pre-processor directives that are specific to the system configuration
+> * Deploy an application version that includes both system configurations to testers
+> * Ensure that stack traces include accurate line numbers
+>
+> You need to configure the project to avoid changing individual configuration settings every time you deploy the application to testers.  
+> Which two actions should you perform?
+
+* A. Update the `platform target` and `conditional compilation symbols` for each application configuration
+* B. Create two application configurations based on the default `Release configuration`
+* C. Optimize the application through `address rebasing` in the 64-bit configuration
+* D. Create two application configurations based on the default `Debug configuration`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B D
+</details>
+
+---
+
+> You are creating an application that reads from a database.  
+> You need to use different databases during the development phase and the testing phase by using conditional compilation techniques.  
+> What should you do?
+
+* A. Configure the assembly metadata to use the pre-existing public key for the assembly identity by using the `AssemblySignatureKeyAttribute` attribute
+* B. `Disable the strong-name bypass` feature of Microsoft .NET Framework in the registry
+* C. Configure the `Define DEBUG constant` setting in Microsoft Visual Studio
+* D. Decorate the code by using the `[assembly:AssemblyDelaySignAttribute(true)]` attribute
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
+</details>
+
 
 ## :heavy_exclamation_mark:  **EVENTS** | **DELEGATES** | **CALLBACKS**
 
