@@ -1,6 +1,20 @@
 # EXAM 70-483 - Programming in C#
 
 
+# Table of contents
+* [Assembly](#heavy_exclamation_mark--assembly)
+* [Debugging](#heavy_exclamation_mark--debugging)
+* [Events | Delegates | Callbacks](#heavy_exclamation_mark--events--delegates--callbacks)
+* [Files](#heavy_exclamation_mark--files)
+* [Language | Types](#heavy_exclamation_mark--language--types)
+* [Logging | Exceptions](#heavy_exclamation_mark--logging--exceptions)
+* [Networking](#heavy_exclamation_mark--networking)
+* [OOP](#heavy_exclamation_mark--oop)
+* [Security](#heavy_exclamation_mark--security)
+* [Serializers](#heavy_exclamation_mark--serializers)
+* [Threading | Tasks](#heavy_exclamation_mark--threading--tasks)
+
+
 ## :heavy_exclamation_mark:  **ASSEMBLY**
 
 
@@ -754,6 +768,9 @@ catch
 </details>
 
 
+## :heavy_exclamation_mark:  **SECURITY**
+
+
 ## :heavy_exclamation_mark:  **SERIALIZERS**
 
 
@@ -836,7 +853,7 @@ catch
 </details>
 
 
-## :heavy_exclamation_mark:  **THREADING** | **TASKS** | **async/await**
+## :heavy_exclamation_mark:  **THREADING** | **TASKS**
 
 
 > You use the `Task.Run()` method to launch a long-running data processing operation.  
