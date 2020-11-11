@@ -3,6 +3,156 @@
 
 ## :heavy_exclamation_mark:  **ASSEMBLY**
 
+> You are developing an assembly that will be used by multiple applications.  
+> You need to install the assembly in the Global Assembly Cache (GAC).  
+> Which two actions can you perform to achieve this goal?
+
+* A. Use the `Assembly Registration` tool (*regasm.exe*) to register the assembly and to copy the assembly to the GAC
+* B. Use the `Strong Name` tool (*sn.exe*) to copy the assembly into the GAC
+* C. Use `Microsoft Register Server` (*regsvr32.exe*) to add the assembly to the GAC
+* D. Use the `Global Assembly Cache` tool (*gacutil.exe*) to add the assembly to the GAC
+* E. Use `Windows Installer 2.0` to add the assembly to the GAC
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D E
+</details>
+
+---
+
+> You are creating a class library that will be used in a web application.  
+> You need to ensure that the class library assembly is strongly named.  
+> What should you do?
+
+* A. Use the `csc.exe /target:Library` option when building the application
+* B. Use the `AL.exe` command-line tool
+* C. Use the `aspnet_regiis.exe` command-line tool
+* D. Use the `EdmGen.exe` command-line tool
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B
+</details>
+
+---
+
+> You are creating a class library that will be used in a web application.  
+> You need to ensure that the class library assembly is strongly named.  
+> What should you do?
+
+* A. Use `assembly attributes`
+* B. Use the `csc.exe /target:Library` option when building the application
+* C. Use the `xsd.exe` command-line tool
+* D. Use the `EdmGen.exe` command-line tool
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  A
+</details>
+
+---
+
+> You are creating a class library that will be used in a web application.  
+> You need to ensure that the class library assembly is strongly named.  
+> What should you do?
+
+* A. Use the `gacutil.exe` command-line tool
+* B. Use the `xsd.exe` command-line tool
+* C. Use the `aspnet_regiis.exe` command-line tool
+* D. Use `assembly attributes`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D
+</details>
+
+---
+
+> You have two assemblies named `Assembly1` and `Assembly2` that are written in C#.  
+> Assembly1 loads Assembly2 by executing the following code [...]  
+> You create a new project in Microsoft Visual Studio to build a new assembly that will replace Assembly2.  
+> The new assembly has the same name and version as the original Assembly2 assembly.  
+> When you execute the code, Assembly1 cannot load Assembly2.  
+> What should you do to ensure that Assembly1 can load Assembly2?
+
+* A. Modify the project properties. Click Delay sign only
+* B. Change the version of new Assembly2 assembly to 1.0.2.5
+* C. Use the `sn.exe` command to create a new key file. Set the `assembly:AssemblyKeyFileAttribute` attribute to the new key file
+* D. Run the `al.exe` command to sign Assembly2. Use the same key file used for the original Assembly2 assembly
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
+</details>
+
+---
+
+> You have an assembly named Assembly named `Assembly1` that is written in C#.  
+> Your company plans to sell Assembly1 to customers. The customers might debug Assembly1.  
+> You need to minimize the amount of information contained within the debug symbols that are shipped with Assembly1.  
+> How should you create the debug symbols for Assembly1?
+
+* A. Create a new PDB file by running `pdbcopy.exe`
+* B. Build Assembly1 by using a `Debug configuration`
+* C. On the Build page of the project properties for Assembly1, click `Define TRACE` constant and `clear Define DEBUG` constant
+* D. Build Assembly1 by using a `Release configuration`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
+</details>
+
+---
+
+> You are developing an application that produces an executable named `MyApp.exe` and an assembly named `MyApp.dll`.  
+> The application will be sold to several customers.  
+> You need to ensure that enough debugging information is available for `MyApp.exe`, so that if the application throws an error in a customer's environment, you can debug the error in your own development environment.
+> What should you do?
+
+* A. Digitally sign MyApp.dll
+* B. Produce program database (PDB) information when you compile the code
+* C. Compile MyApp.exe by using the /unsafe compiler option
+* D. Initializes a new instance of the AssemblyDelaySignAttribute class in the MyApp.dll constructor
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B
+</details>
+
+---
+
+> You are developing an application by using C#. You provide a public key to the development team during development.  
+> You need to specify that the assembly is not fully signed when it is built.  
+> Which two assembly attributes should you include in the source code?
+
+* A. `AssemblyKeyNameAttribute`
+* B. `ObfuscateAssemblyAttribute`
+* C. `AssemblyDelaySignAttribute`
+* D. `AssemblyKeyFileAttribute`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C D
+</details>
+
+---
+
+> You are developing an application that will be deployed to multiple computers.  
+> You set the assembly name. You need to create a unique identity for the application assembly.  
+> Which two assembly identity attributes should you include in the source code?
+
+* A. `AssemblyTitleAttribute`
+* B. `AssemblyCultureAttribute`
+* C. `AssemblyVersionAttribute`
+* D. `AssemblyKeyNameAttribute`
+* E. `AssemblyFileVersion`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  B C
+</details>
+
+---
 
 > You are creating a console application by using C#. You need to access the application assembly.  
 > Which code segment should you use?
@@ -19,19 +169,44 @@
 
 ---
 
-> You are developing an assembly that will be used by multiple applications.  
-> You need to install the assembly in the Global Assembly Cache (GAC).  
-> Which two actions can you perform to achieve this goal?
+> You are creating a console application by using C#.  
+> You need to access the assembly found in the file named `car.dll`.  
+> Which code segment should you use?
 
-* A. Use the `Assembly Registration` tool (*regasm.exe*) to register the assembly and to copy the assembly to the GAC.
-* B. Use the `Strong Name` tool (*sn.exe*) to copy the assembly into the GAC.
-* C. Use `Microsoft Register Server` (*regsvr32.exe*) to add the assembly to the GAC.
-* D. Use the `Global Assembly Cache` tool (*gacutil.exe*) to add the assembly to the GAC.
-* E. Use `Windows Installer 2.0` to add the assembly to the GAC
+* A. `Assembly.Load();`
+* B. `Assembly.GetExecutingAssembly();`
+* C. `This.GetType();`
+* D. `Assembly.LoadFile("car.dll");`
 
 <details> 
   <summary><b><i>Correct</i> answer</b></summary>
-  D E
+  D
+</details>
+
+---
+
+> You are developing code for an application that retrieves information about Microsoft .NET Framework assemblies.  
+> The following code segment is part of the application
+> ``` csharp
+> public void ViewMetadata(string filePath)
+> {
+>     var bytes = File.ReadAllBytes(filepath);
+>     _____
+> }
+> ```
+>
+> You need to insert code at line 04. The code must load the assembly.  
+> Once the assembly is loaded, the code must be able to read the assembly metadata, but the code must be denied access from executing code from the assembly.  
+> Which code segment should you insert at line 04?
+
+* A. `Assembly.ReflectionOnlyLoadFrom(bytes);`
+* B. `Assembly.ReflectionOniyLoad(bytes);`
+* C. `Assembly.Load(bytes);`
+* D. `Assembly.LoadFrom(bytes);`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  C
 </details>
 
 
