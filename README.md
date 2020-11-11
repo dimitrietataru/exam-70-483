@@ -3,6 +3,7 @@
 
 ## :heavy_exclamation_mark:  **ASSEMBLY**
 
+
 > You are developing an assembly that will be used by multiple applications.  
 > You need to install the assembly in the Global Assembly Cache (GAC).  
 > Which two actions can you perform to achieve this goal?
@@ -211,6 +212,7 @@
 
 
 ## :heavy_exclamation_mark:  **DEBUGGING**
+
 
 > You are debugging an application that calculates loan interest. The application includes the following code:
 > ``` csharp
@@ -502,6 +504,7 @@ AddUserDelegate addDelegate = (userTracker) =>
   None. D is missing..
 </details>
 
+
 ## :heavy_exclamation_mark:  **FILES**
 
 
@@ -653,6 +656,68 @@ catch
 <details> 
   <summary><b><i>Correct</i> answer</b></summary>
   A
+</details>
+
+
+## :heavy_exclamation_mark:  **NETWORKING**
+
+
+> You need to write a method that retrieves data from a Microsoft Access 2013 database.  
+> The method must meet the following requirements:  
+> * Be read-only
+> * Be able to use the data before the entire data set is retrieved
+> * Minimize the amount of system overhead and the amount of memory usage
+>
+> Which type of object should you use in the method?
+
+* A. `SqlDataAdapter`
+* B. `DataContext`
+* C. `DbDataAdapter`
+* D. `OleDbDataReader`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D
+</details>
+
+---
+
+> You need to write a method that retrieves data from a Microsoft Access 2013 database.  
+> The method must meet the following requirements:  
+> * Be read-only
+> * Be able to use the data before the entire data set is retrieved
+> * Minimize the amount of system overhead and the amount of memory usage
+>
+> Which type of object should you use in the method?
+
+* A. `DbDataReader`
+* B. `DataContext`
+* C. `unTyped DataSet`
+* D. `DbDataAdapter`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  A
+</details>
+
+---
+
+> You need to write a method that retrieves data from a Microsoft Access 2013 database.  
+> The method must meet the following requirements:  
+> * Be read-only
+> * Be able to use the data before the entire data set is retrieved
+> * Minimize the amount of system overhead and the amount of memory usage
+>
+> Which type of object should you use in the method?
+
+* A. `DbDataAdapter`
+* B. `unTyped DataSet`
+* C. `OleDbDataAdapter`
+* D. `DbDataReader`
+
+<details> 
+  <summary><b><i>Correct</i> answer</b></summary>
+  D
 </details>
 
 

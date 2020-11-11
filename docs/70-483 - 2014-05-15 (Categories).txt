@@ -17,11 +17,9 @@ q57.p35
 q78.p48
 
 Networking
-q39 - p24
-q62 - p39
-q92 - p61
-q95 - p63
-q5 - p107
+q39.p24
+q95.p64
+q5.p107
 
 OOP
 q7 - p110
